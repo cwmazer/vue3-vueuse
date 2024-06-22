@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import CreateGlobalState from "./components/vueuse/state/createGlobalState/index.vue";
+import CreateSharedComposable from "./components/vueuse/state/createSharedComposable/index.vue";
 </script>
 
 <template>
   <CreateGlobalState />
+  <CreateSharedComposable />
 </template>
 
 <style scoped>

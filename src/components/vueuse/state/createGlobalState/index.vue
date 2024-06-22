@@ -1,8 +1,8 @@
 <template>
   <div class="w-full p-2 border border-slate-200">
-    <h2 class="mb-1">createGlobalState</h2>
+    <h2 class="mb-1 font-semibold">createGlobalState</h2>
     <p>Keep states in the global scope to be reusable across Vue instances</p>
-    <div class="flex gap-5">
+    <div class="flex gap-5 justify-between">
       <Component1 />
       <Component2 />
     </div>
