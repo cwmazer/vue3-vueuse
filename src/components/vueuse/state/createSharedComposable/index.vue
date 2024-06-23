@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full p-2 border border-slate-200">
-    <h2 class="mb-1 font-semibold">createSharedComposable</h2>
+  <div class="w-full p-2 border border-slate-200 rounded-md">
+    <h2 class="mb-1 font-bold underline">createSharedComposable</h2>
     <p>Make a composable function usable with multiple Vue instances</p>
-    <div class="flex gap-5 justify-between">
+    <div class="flex gap-5 justify-around">
       <ComponentA />
       <ComponentB />
     </div>

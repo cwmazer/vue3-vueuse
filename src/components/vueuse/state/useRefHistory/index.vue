@@ -1,8 +1,8 @@
 <template>
-  <div class="w-full p-2 border border-slate-200">
-    <h2 class="mb-1 font-semibold">useRefHistory</h2>
+  <div class="w-full p-2 border border-slate-200 rounded-md">
+    <h2 class="mb-1 font-bold underline">useRefHistory</h2>
     <p>Track the change history of a ref, also provides undo and redo functionality</p>
-    <div class="flex flex-col text-left">
+    <div class="flex flex-col items-center text-left">
       <div>Count: {{ counter }}</div>
       <div class="flex gap-2 items-center">
         <button @click="() => (counter = counter + 1)">Increment</button>
@@ -11,7 +11,7 @@
         <button :disabled="!canUndo" @click="undo">Undo</button>
         <button :disabled="!canRedo" @click="redo">Redo</button>
       </div>
-      <div class="mt-2 grid grid-cols-2">
+      <div class="mt-2 grid grid-cols-2 gap-2">
         <div>
           <p class="font-semibold">History:</p>
           <div>

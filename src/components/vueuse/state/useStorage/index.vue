@@ -1,6 +1,6 @@
 <template>
-  <div class="w-full p-2 border border-slate-200">
-    <h2 class="mb-1 font-semibold">useStorage</h2>
+  <div class="w-full p-2 border border-slate-200 rounded-md">
+    <h2 class="mb-1 font-bold underline">useStorage</h2>
     <p>Local storage/Session storage:</p>
     <div class="grid grid-cols-2 gap-2">
       <div>
