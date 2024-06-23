@@ -5,6 +5,7 @@ import UseRefHistory from "./components/vueuse/state/useRefHistory/index.vue";
 import UseStorage from "./components/vueuse/state/useStorage/index.vue";
 import UseActiveElement from "./components/vueuse/elements/useActiveElement/index.vue";
 import UseDocumentVisibility from "./components/vueuse/elements/useDocumentVisibility/index.vue";
+import UseDraggable from "./components/vueuse/elements/useDraggable/index.vue";
 </script>
 
 <template>
@@ -16,6 +17,7 @@ import UseDocumentVisibility from "./components/vueuse/elements/useDocumentVisib
       <UseStorage />
       <UseActiveElement />
       <UseDocumentVisibility />
+      <UseDraggable />
     </div>
   </div>
 </template>
