@@ -5,7 +5,7 @@
     <div class="flex flex-col text-left">
       <div>Count: {{ counter }}</div>
       <div class="flex gap-2 items-center">
-        <button @click="() => (counter = counter + 1)">Increament</button>
+        <button @click="() => (counter = counter + 1)">Increment</button>
         <button @click="() => (counter = counter - 1)">Decrement</button>
         /
         <button :disabled="!canUndo" @click="undo">Undo</button>

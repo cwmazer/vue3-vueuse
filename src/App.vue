@@ -2,6 +2,7 @@
 import CreateGlobalState from "./components/vueuse/state/createGlobalState/index.vue";
 import CreateSharedComposable from "./components/vueuse/state/createSharedComposable/index.vue";
 import UseRefHistory from "./components/vueuse/state/useRefHistory/index.vue";
+import UseStorage from "./components/vueuse/state/useStorage/index.vue";
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import UseRefHistory from "./components/vueuse/state/useRefHistory/index.vue";
       <CreateGlobalState />
       <CreateSharedComposable />
       <UseRefHistory />
+      <UseStorage />
     </div>
   </div>
 </template>
