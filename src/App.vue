@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import CreateGlobalState from "./components/vueuse/state/createGlobalState/index.vue";
 import CreateSharedComposable from "./components/vueuse/state/createSharedComposable/index.vue";
+import UseRefHistory from "./components/vueuse/state/useRefHistory/index.vue";
 </script>
 
 <template>
-  <CreateGlobalState />
-  <CreateSharedComposable />
+  <div class="w-full h-full">
+    <div class="w-[800px] mx-auto">
+      <CreateGlobalState />
+      <CreateSharedComposable />
+      <UseRefHistory />
+    </div>
+  </div>
 </template>
 
 <style scoped>
