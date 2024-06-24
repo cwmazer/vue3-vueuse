@@ -8,6 +8,8 @@ import UseDocumentVisibility from "./components/vueuse/elements/useDocumentVisib
 import UseDraggable from "./components/vueuse/elements/useDraggable/index.vue";
 import UseDropZone from "./components/vueuse/elements/useDropZone/index.vue";
 import UseElementBounding from "./components/vueuse/elements/useElementBounding/index.vue";
+import UseElementVisibility from "./components/vueuse/elements/useElementVisibility/index.vue";
+import UseIntersectionObserver from "./components/vueuse/elements/useIntersectionObserver/index.vue";
 </script>
 
 <template>
@@ -22,6 +24,8 @@ import UseElementBounding from "./components/vueuse/elements/useElementBounding/
       <UseDraggable />
       <UseDropZone />
       <UseElementBounding />
+      <UseElementVisibility />
+      <UseIntersectionObserver />
     </div>
   </div>
 </template>
