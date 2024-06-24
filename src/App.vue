@@ -10,6 +10,7 @@ import UseDropZone from "./components/vueuse/elements/useDropZone/index.vue";
 import UseElementBounding from "./components/vueuse/elements/useElementBounding/index.vue";
 import UseElementVisibility from "./components/vueuse/elements/useElementVisibility/index.vue";
 import UseIntersectionObserver from "./components/vueuse/elements/useIntersectionObserver/index.vue";
+import UseMouseInElement from "./components/vueuse/elements/useMouseInElement/index.vue";
 </script>
 
 <template>
@@ -26,6 +27,7 @@ import UseIntersectionObserver from "./components/vueuse/elements/useIntersectio
       <UseElementBounding />
       <UseElementVisibility />
       <UseIntersectionObserver />
+      <UseMouseInElement />
     </div>
   </div>
 </template>

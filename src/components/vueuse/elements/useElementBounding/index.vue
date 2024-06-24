@@ -1,7 +1,7 @@
 <template>
   <div class="w-full p-2 border border-slate-200 rounded-md">
-    <h2 class="mb-1 font-bold underline">useDropZone</h2>
-    <p>Create a zone where files can be dropped</p>
+    <h2 class="mb-1 font-bold underline">useElementBounding</h2>
+    <p>Reactive bounding box of an HTML element</p>
     <div class="w-[600px] h-[120px] mx-auto border">
       <div class="grid grid-cols-2 h-full max-h-full max-w-full">
         <div class="border-zinc-500 bg-slate-100">
