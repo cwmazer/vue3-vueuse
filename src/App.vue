@@ -7,6 +7,7 @@ import UseActiveElement from "./components/vueuse/elements/useActiveElement/inde
 import UseDocumentVisibility from "./components/vueuse/elements/useDocumentVisibility/index.vue";
 import UseDraggable from "./components/vueuse/elements/useDraggable/index.vue";
 import UseDropZone from "./components/vueuse/elements/useDropZone/index.vue";
+import UseElementBounding from "./components/vueuse/elements/useElementBounding/index.vue";
 </script>
 
 <template>
@@ -20,6 +21,7 @@ import UseDropZone from "./components/vueuse/elements/useDropZone/index.vue";
       <UseDocumentVisibility />
       <UseDraggable />
       <UseDropZone />
+      <UseElementBounding />
     </div>
   </div>
 </template>
