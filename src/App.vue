@@ -12,6 +12,7 @@ import UseElementVisibility from "./components/vueuse/elements/useElementVisibil
 import UseIntersectionObserver from "./components/vueuse/elements/useIntersectionObserver/index.vue";
 import UseMouseInElement from "./components/vueuse/elements/useMouseInElement/index.vue";
 import UseResizeObserver from "./components/vueuse/elements/useResizeObserver/index.vue";
+import UseWindowFocus from "./components/vueuse/elements/useWindowFocus/index.vue";
 </script>
 
 <template>
@@ -30,6 +31,7 @@ import UseResizeObserver from "./components/vueuse/elements/useResizeObserver/in
       <UseIntersectionObserver />
       <UseMouseInElement />
       <UseResizeObserver />
+      <UseWindowFocus />
     </div>
   </div>
 </template>
