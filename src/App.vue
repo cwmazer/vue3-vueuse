@@ -14,11 +14,13 @@ import UseMouseInElement from "./components/vueuse/elements/useMouseInElement/in
 import UseResizeObserver from "./components/vueuse/elements/useResizeObserver/index.vue";
 import UseWindowFocus from "./components/vueuse/elements/useWindowFocus/index.vue";
 import UseWindowScroll from "./components/vueuse/elements/useWindowScroll/index.vue";
+import UseWindowSize from "./components/vueuse/elements/useWindowSize/index.vue";
+import UseBroadcastChannel from "./components/vueuse/browser/useBroadcashChannel/index.vue";
 </script>
 
 <template>
   <div class="w-full h-full">
-    <div class="w-[800px] mx-auto grid grid-cols-1 gap-3">
+    <div class="w-[800px] mx-auto grid grid-cols-1 gap-3 mb-5">
       <CreateGlobalState />
       <CreateSharedComposable />
       <UseRefHistory />
@@ -34,6 +36,8 @@ import UseWindowScroll from "./components/vueuse/elements/useWindowScroll/index.
       <UseResizeObserver />
       <UseWindowFocus />
       <UseWindowScroll />
+      <UseWindowSize />
+      <UseBroadcastChannel />
     </div>
   </div>
 </template>
