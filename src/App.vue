@@ -16,6 +16,7 @@ import UseWindowFocus from "./components/vueuse/elements/useWindowFocus/index.vu
 import UseWindowScroll from "./components/vueuse/elements/useWindowScroll/index.vue";
 import UseWindowSize from "./components/vueuse/elements/useWindowSize/index.vue";
 import UseBroadcastChannel from "./components/vueuse/browser/useBroadcashChannel/index.vue";
+import UseClipboard from "./components/vueuse/browser/useClipboard/index.vue";
 </script>
 
 <template>
@@ -38,6 +39,7 @@ import UseBroadcastChannel from "./components/vueuse/browser/useBroadcashChannel
       <UseWindowScroll />
       <UseWindowSize />
       <UseBroadcastChannel />
+      <UseClipboard />
     </div>
   </div>
 </template>
