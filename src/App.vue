@@ -17,6 +17,7 @@ import UseWindowScroll from "./components/vueuse/elements/useWindowScroll/index.
 import UseWindowSize from "./components/vueuse/elements/useWindowSize/index.vue";
 import UseBroadcastChannel from "./components/vueuse/browser/useBroadcashChannel/index.vue";
 import UseClipboard from "./components/vueuse/browser/useClipboard/index.vue";
+import UseScriptTag from "./components/vueuse/browser/useScriptTag/index.vue";
 </script>
 
 <template>
@@ -40,6 +41,7 @@ import UseClipboard from "./components/vueuse/browser/useClipboard/index.vue";
       <UseWindowSize />
       <UseBroadcastChannel />
       <UseClipboard />
+      <UseScriptTag />
     </div>
   </div>
 </template>
