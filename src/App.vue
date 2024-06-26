@@ -19,6 +19,7 @@ import UseBroadcastChannel from "./components/vueuse/browser/useBroadcashChannel
 import UseClipboard from "./components/vueuse/browser/useClipboard/index.vue";
 import UseScriptTag from "./components/vueuse/browser/useScriptTag/index.vue";
 import UseWebWorker from "./components/vueuse/browser/useWebWorker/index.vue";
+import UseWebWorkerFn from "./components/vueuse/browser/useWebWorkerFn/index.vue";
 </script>
 
 <template>
@@ -44,6 +45,7 @@ import UseWebWorker from "./components/vueuse/browser/useWebWorker/index.vue";
       <UseClipboard />
       <UseScriptTag />
       <UseWebWorker />
+      <UseWebWorkerFn />
     </div>
   </div>
 </template>
